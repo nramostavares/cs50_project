@@ -1,0 +1,139 @@
+/* Import fonts */
+@import url(/project/css/fonts.css);
+
+/* Import variables & global styles */
+@import url(/project/css/partials/_variables.css);
+@import url(/project/css/partials/_global.css);
+
+
+/* Login Area */
+.site-login {
+    padding: 10rem 2rem 10rem 5rem;
+}
+
+/* Header Area */
+.header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto); 
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color:var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 2px 7px 0px teal;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Banner Area */
+.site-main .site-banner {
+    background: url(../img/site_main_background2.jpg) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .mental_health_img>img {
+    position: relative;
+    padding: 4rem 0;
+    width: 30rem;
+}
+
+
+/* Month Area*/
+.site-main .month-area {
+    padding: 8rem 10rem;
+}
+
+.site-main .month-area .month-title h2 > span {
+    display: block;
+    font: normal bold 42px/70px var(--roboto);
+    letter-spacing: 15px; 
+}
+
+.site-main .month-area .month-title h3 > span {
+    display: block;
+    font: normal normal 22px/35px var(--roboto);
+    letter-spacing: 15px; 
+}
+
+.site-main .month-area .month-title .paragraph > p {
+    padding: .4rem 0rem;
+}
+
+/* Week Area*/
+.site-main .week-area {
+    padding: 5rem 5rem;
+}
+
+.site-main .week-area .week-title h2 > span {
+    display: block;
+    font: normal bold 42px/70px var(--roboto);
+    letter-spacing: 15px; 
+}
+
+.site-main .week-area .week-title h3 > span {
+    display: block;
+    font: normal normal 22px/35px var(--roboto);
+    letter-spacing: 15px; 
+}
+
+.site-main .week-area .week-title .paragraph > p {
+    padding: .4rem 0rem;
+}
